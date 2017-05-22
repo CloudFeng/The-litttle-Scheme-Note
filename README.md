@@ -2,19 +2,14 @@
 This repository contains the book of the little scheme source code and some notes. All of the codes can be loaded into scheme compiler to run. I use this on line [scheme compiler](https://repl.it/).
 
 ## 缘起
-看这本书的缘由，说起来不好意思的。主要看scip看着头痛，看到第二章的时候，做里面的习题做着头疼脑热的，
-看看能否对scheme语言有一个简要的介绍就在网上看到此书，有人评论此书可以做为scip的基础书，我读后感受
-是最好在读完scip的第一章和第二章中关于list的概念之后就可以阅读了。毕竟这本书一上来就是各种
-lambda表达式、以及scheme中内置的函数。尽管书的前言说，此书适合无任何编程经验的学习。觉得自己在校学习
-果断和国外的差距很大。
+看这本书的缘由，说起来不好意思的。主要看scip看着头痛，看到第二章的时候，做里面的习题做着头疼脑热的，看看能否对scheme语言有一个简要的介绍就在网上看到此书，有人评论此书可以做为scip的基础书，我读后感受是最好在读完scip的第一章和第二章中关于list的概念之后就可以阅读了。毕竟这本书一上来就是各种lambda表达式、以及scheme中内置的函数。尽管书的前言说，此书适合无任何编程经验的学习。觉得自己在校学习果断和国外的差距很大。
 
 > The Little Schemer is based on lecture notes from two-week "quickie"
 > introduction 
 to Scheme for Students with no previous programming experience.
 
 ## 概述
-本来想花一周的时间将此书看完，不厚也就200多页。但是期间加班比较严重，后面自己玩游戏也比较多，导致拖到
-上周日才看完。此书以对话的形式介绍schemer，书中主要是讲解程序中递归的概念。在书的前言就作者就直接说：
+本来想花一周的时间将此书看完，不厚也就200多页。但是期间加班比较严重，后面自己玩游戏也比较多，导致拖到上周日才看完。此书以对话的形式介绍schemer，书中主要是讲解程序中递归的概念。在书的前言就作者就直接说：
 
 > The goal of this book is to teach the reader to think recursively. 
 
@@ -38,7 +33,7 @@ to Scheme for Students with no previous programming experience.
 
 ## Scheme编程经验
 作者在自问自答的方式中介绍5条原则和10条告诫。这些都是通过一个个实例进行论证说明的。这些经验性的概括十分简短，却十分有用。
-下面看看1条原则和1条告诫吧。更多可以访问此
+下面看看1条原则和1条告诫吧。更多可以访问[此地](https://github.com/CloudFeng/The-litttle-Scheme-Note/blob/master/5RulesAnd10Comandments.md).
 
 ### The Law of Car
 The primitive `car` is defined only for non-empty lists.
